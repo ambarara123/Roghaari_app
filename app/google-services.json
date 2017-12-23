@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965071164343",
+    "firebase_url": "https://roghaari2.firebaseio.com",
+    "project_id": "roghaari2",
+    "storage_bucket": "roghaari2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965071164343:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "info.androidhive.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965071164343-8mnjg36vipfdeqhkmovp4ciatrm6el6d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.androidhive.firebase",
+            "certificate_hash": "00c304fe7701da714b458d5f91a9997cd553f0ea"
+          }
+        },
+        {
+          "client_id": "965071164343-gr3kf92j0tgqnc3eua0qnfmi6ngd813a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFH_Yj85HiK3nUOx7_KbkrzgoPLXw8l-I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965071164343-gr3kf92j0tgqnc3eua0qnfmi6ngd813a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -79,6 +79,7 @@ public class SignupActivity extends AppCompatActivity {
                 }
                 if (!password.equals(cnfPassword)){
                     Toast.makeText(getApplicationContext(), "Password did't matched, try again", Toast.LENGTH_SHORT).show();
+                    return;
                 }
 
                 progressBar.setVisibility(View.VISIBLE);
@@ -97,7 +98,7 @@ public class SignupActivity extends AppCompatActivity {
                                             Toast.LENGTH_SHORT).show();
                                 } else {
 
-                                    startActivity(new Intent(SignupActivity.this, MainActivity.class));
+                                    startActivity(new Intent(SignupActivity.this, LoginActivity.class));
                                     sendEmailVerification();
                                     finish();
                                 }

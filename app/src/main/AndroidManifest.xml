@@ -16,28 +16,28 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="info.Roghaari.Roghaari_alpha1.LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"
-                   />
+                <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="info.Roghaari.Roghaari_alpha1.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="info.Roghaari.Roghaari_alpha1.SignupActivity"
+            android:name=".SignupActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="info.Roghaari.Roghaari_alpha1.ResetPasswordActivity"
+            android:name=".ResetPasswordActivity"
             android:label="@string/title_activity_reset_password"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FirstActivity"></activity>
     </application>
 
 </manifest>
